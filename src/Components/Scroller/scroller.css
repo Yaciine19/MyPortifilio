@@ -1,0 +1,23 @@
+.scroll-container {
+    width: 100%;
+    height: 13vh;
+    background-color: var(--primary);
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.scroll-container .scorll-content {
+    width: 105%;
+    background-color: white;
+    height: 48%;
+    rotate: -1deg;
+}
+
+.scroll-container .scorll-content .marquee p {
+    margin: 0 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--secondary);
+}

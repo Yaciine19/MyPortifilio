@@ -1,0 +1,163 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top: 8rem;
+}
+
+.top {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top .hello {
+    margin-bottom: 1.5rem;
+    width: fit-content;
+    padding: 10px 20px;
+    border: 2px solid var(--primary);
+    border-radius: 50px;
+    position: relative;
+    color: var(--primary);
+}
+
+.top .hello svg {
+    position: absolute;
+    right: -28px;
+    top: -30px;
+    rotate: 38deg;
+}
+
+.top .content {
+    font-size: 3rem;
+    width: 70%;
+    position: relative;
+}
+
+.top .content span {
+    color: var(--primary);
+}
+
+
+.top .content svg {
+    position: absolute;
+    left: 15rem;
+    bottom: -60px;
+    rotate: -150deg;
+}
+
+.img-container .myImg {
+    width: 30rem;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-container .curser {
+    position: absolute;
+    left: 52%;
+    top: 22%;
+}
+
+.img-container .figma,
+.img-container .instagram,
+.img-container .linkedin,
+.img-container .search {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 60px;
+    padding: 0.25rem;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 2px solid rgba(9, 104, 229, 0.3);
+    border-radius: 50px;
+    backdrop-filter: blur(4px);
+    display: flex;
+    font-weight: 500;
+    color: #fff;
+    background-clip: padding-box;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    border-radius: 50px;
+    gap: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.buttons a .portifilio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons a:hover {
+    background-color: rgb(27, 119, 240);
+}
+
+.buttons .hire {
+    padding: 10px 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .img-container .myImg {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .top .content svg {
+        position: absolute;
+        left: -60px;
+        bottom: -60px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .img-container .myImg {
+        display: none;
+    }
+
+    .top .content svg {
+        position: absolute;
+        left: 40px;
+        bottom: -60px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .img-container .instagram,
+    .img-container .linkedin,
+    .img-container .search {
+        display: none;
+    }
+
+    .top .content svg {
+        position: absolute;
+        left: -30px;
+        bottom: -60px;
+    }
+}
