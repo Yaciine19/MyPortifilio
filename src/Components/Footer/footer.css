@@ -42,6 +42,8 @@ footer .social-icons .social-icon:hover {
     footer {
         flex-direction: column;
         row-gap: 1.5rem;
+        text-align: center;
+        line-height: 1.7rem;
     }
     
 }

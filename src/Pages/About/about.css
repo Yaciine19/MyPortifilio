@@ -107,3 +107,9 @@
     }
 
 }
+
+@media screen and (max-width: 380px) {
+    .about .about-container .right img {
+        width: 230px;
+    }
+}

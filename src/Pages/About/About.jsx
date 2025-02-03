@@ -36,7 +36,7 @@ export default function About() {
             <FaQuoteRight
             className="icon"
               style={{
-                right: "1rem",
+                right: "2rem",
                 bottom: "5px",
               }}
             />
