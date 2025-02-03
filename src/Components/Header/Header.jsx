@@ -13,6 +13,18 @@ const listItems = [
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [isOpen]);
+
   const handleOpenClick = () => {
     setIsOpen((prev) => !prev);
   };
@@ -39,8 +51,8 @@ export default function Header() {
     };
   }, []);
   return (
-    <>
-      <header className="flex">
+    <header>
+      <div className="flex header">
         {/* ======================= */}
         <div className="menu" onClick={handleOpenClick}>
           <LuMenu
@@ -71,7 +83,7 @@ export default function Header() {
             </a>
           </ul>
         </nav>
-      </header>
+      </div>
       {/* ============== Pop-Up =================== */}
       {isOpen && (
         <div className="modal">
@@ -90,6 +102,6 @@ export default function Header() {
           </div>
         </div>
       )}
-    </>
+    </header>
   );
 }
