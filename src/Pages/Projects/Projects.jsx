@@ -17,13 +17,13 @@ const MyProjects = [
     value: "uiux",
   },
   {
-    category: "Logos",
+    category: "Logo",
     Title: "Yonicode (Personal Logo)",
     imgScr: "/Projects/Artboard 3@2x.png",
     value: "logos",
   },
   {
-    category: "Logos",
+    category: "Logo",
     Title: "Public Speaking (Rise & Resonate)",
     imgScr: "/Projects/public Speaking logo-04.webp",
     value: "logos",
