@@ -160,34 +160,34 @@ export default function Hero() {
       </div>
 
       <div className="img-container">
-        <img className="myImg" src="/myImg.png" alt="img" />
+        <img className="myImg" src="/myImg.webp" alt="img" />
 
         {/* 3D icons */}
         <img
           className="figma"
           ref={figma}
-          src="/figma.png"
+          src="/figma.webp"
           alt="figma"
           width={70}
         />
         <img
           ref={instagram}
           className="instagram"
-          src="/instagram.png"
+          src="/instagram.webp"
           alt="instagram"
           width={70}
         />
         <img
           ref={linkedin}
           className="linkedin"
-          src="/linkedin.png"
+          src="/linkedin.webp"
           alt="linkedin"
           width={70}
         />
         <img
           ref={search}
           className="search"
-          src="/search.png"
+          src="/search.webp"
           alt="search"
           width={70}
         />

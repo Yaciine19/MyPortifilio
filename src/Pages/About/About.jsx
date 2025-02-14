@@ -44,7 +44,7 @@ export default function About() {
           <div className="right" style={{
             textAlign: "center"
           }}>
-            <img ref={img} src="/about-01.png" alt="me" width={350} height="auto" loading="lazy"/>
+            <img ref={img} src="/about-01.webp" alt="me" width={350} height="auto" loading="lazy"/>
           </div>
         </div>
       </div>

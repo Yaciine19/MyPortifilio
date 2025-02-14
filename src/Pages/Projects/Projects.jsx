@@ -17,13 +17,13 @@ const MyProjects = [
     value: "uiux",
   },
   {
-    category: "Logos",
+    category: "Logo",
     Title: "Yonicode (Personal Logo)",
-    imgScr: "/Projects/Artboard 3@2x.png",
+    imgScr: "/Projects/Artboard 3@2x.webp",
     value: "logos",
   },
   {
-    category: "Logos",
+    category: "Logo",
     Title: "Public Speaking (Rise & Resonate)",
     imgScr: "/Projects/public Speaking logo-04.webp",
     value: "logos",
@@ -31,19 +31,19 @@ const MyProjects = [
   {
     category: "Web Site",
     Title: "Landing Page",
-    imgScr: "/Projects/landing page.png",
+    imgScr: "/Projects/landing page.webp",
     value: "websites",
   },
   {
     category: "Web Site",
     Title: "Dashboard",
-    imgScr: "/Projects/dashboard.png",
+    imgScr: "/Projects/dashboard.webp",
     value: "websites",
   },
   {
     category: "Web Site",
     Title: "ChemVision Workshop (SESC club)",
-    imgScr: "/Projects/chemvison.png",
+    imgScr: "/Projects/chemvison.webp",
     value: "websites",
   },
 ];
